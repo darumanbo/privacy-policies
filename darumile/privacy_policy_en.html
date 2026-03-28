@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Darumile Privacy Policy</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.8;
+        color: #333;
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      h1, h2, h3 {
+        color: #2c3e50;
+      }
+      h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+      }
+      h2 {
+        border-left: 4px solid #B2D8D8;
+        padding-left: 0.5rem;
+        margin-top: 2rem;
+      }
+      h3 {
+        margin-top: 1.5rem;
+        font-size: 1.1rem;
+      }
+      a {
+        color: #B2D8D8;
+      }
+      hr {
+        margin: 2rem 0;
+        border: none;
+        border-top: 1px solid #ccc;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1rem 0;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 0.5rem;
+        text-align: left;
+      }
+      th {
+        background-color: #f5f5f5;
+      }
+      ul {
+        padding-left: 1.5rem;
+      }
+      .update-date {
+        text-align: center;
+        color: #888;
+        margin-bottom: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy Policy</h1>
+    <p class="update-date">Last Updated: January 2025</p>
+
+    <h2>1. Introduction</h2>
+    <p>Darumile Team (hereinafter "we," "us," or "our") respects the privacy of users of our iOS application "Darumile" (hereinafter "the App") and is committed to protecting your personal information.</p>
+    <p>This Privacy Policy (hereinafter "Policy") explains what information we collect and how we use and protect it. Please read this Policy carefully before using the App.</p>
+    <p>The App is not intended for children under 13 years of age. We do not intentionally collect personal information from children under 13.</p>
+
+    <hr />
+
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 HealthKit Data</h3>
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Collection Method</th>
+        <th>Purpose</th>
+        <th>External Transfer</th>
+      </tr>
+      <tr>
+        <td>Step Count</td>
+        <td>Reading from Apple HealthKit</td>
+        <td>Calculating Daruma/miniature building progress</td>
+        <td>None</td>
+      </tr>
+    </table>
+    <ul>
+      <li>We <strong>only read</strong> step data and do not write to HealthKit</li>
+      <li>Step data is processed only on the device and is <strong>not sent to external servers</strong></li>
+      <li>Step data is not used for advertising or marketing purposes</li>
+    </ul>
+
+    <h3>2.2 Identification Information</h3>
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Storage Location</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td>Anonymous User ID</td>
+        <td>Keychain (device) + Firestore (cloud)</td>
+        <td>User identification, data sync</td>
+      </tr>
+      <tr>
+        <td>Recovery Code</td>
+        <td>Keychain (device) + Firestore (cloud)</td>
+        <td>Data recovery</td>
+      </tr>
+    </table>
+    <ul>
+      <li>Login is not required. An anonymous user ID is automatically generated when the App is first launched</li>
+      <li>We do not collect personally identifiable information such as names, email addresses, or phone numbers</li>
+    </ul>
+
+    <h3>2.3 Usage Data</h3>
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Destination</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td>Analytics Events</td>
+        <td>Firebase Analytics</td>
+        <td>App improvement, usage analysis</td>
+      </tr>
+      <tr>
+        <td>Crash Reports</td>
+        <td>Firebase Crashlytics</td>
+        <td>Bug identification and fixes</td>
+      </tr>
+    </table>
+    <p>Examples of analytics events collected:</p>
+    <ul>
+      <li>App launch</li>
+      <li>Daruma completion</li>
+      <li>Premium plan purchase</li>
+      <li>Screen views</li>
+    </ul>
+
+    <h3>2.4 Purchase Information</h3>
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Processor</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td>Subscription Status</td>
+        <td>RevenueCat</td>
+        <td>Managing Premium features</td>
+      </tr>
+    </table>
+    <ul>
+      <li>We do not directly collect or store payment information such as credit card numbers or bank account details</li>
+      <li>Payment processing is conducted through the Apple App Store</li>
+    </ul>
+
+    <h3>2.5 Advertising Data</h3>
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Condition</th>
+        <th>Destination</th>
+      </tr>
+      <tr>
+        <td>Ad impressions/clicks</td>
+        <td>Non-Premium users</td>
+        <td>Google AdMob</td>
+      </tr>
+      <tr>
+        <td>Advertising Identifier (IDFA)</td>
+        <td>With ATT consent only</td>
+        <td>Google AdMob</td>
+      </tr>
+    </table>
+    <ul>
+      <li>Ads are displayed only to non-Premium users</li>
+      <li>On iOS 14.5 and later, explicit consent through App Tracking Transparency (ATT) is required for ad tracking</li>
+    </ul>
+
+    <h3>2.6 Locally Stored Data</h3>
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Storage Location</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td>Daruma progress data</td>
+        <td>SharedDefaults (App Groups)</td>
+        <td>Sharing between app and widgets</td>
+      </tr>
+      <tr>
+        <td>Theme settings</td>
+        <td>SharedDefaults</td>
+        <td>Storing user preferences</td>
+      </tr>
+      <tr>
+        <td>Cached images</td>
+        <td>App cache directory</td>
+        <td>Faster display</td>
+      </tr>
+    </table>
+    <p>This data is stored only on the device and is used for widget functionality integration.</p>
+
+    <hr />
+
+    <h2>3. How We Use Information</h2>
+    <p>We use the collected information for the following purposes:</p>
+    <ul>
+      <li><strong>Service Provision</strong>: Enabling the Daruma/miniature building features based on steps</li>
+      <li><strong>Premium Feature Management</strong>: Verifying subscription status and providing benefits</li>
+      <li><strong>App Improvement</strong>: Analyzing usage, identifying and fixing bugs</li>
+      <li><strong>Ad Display</strong>: Delivering ads to non-Premium users (personalized ads with consent)</li>
+      <li><strong>Data Recovery</strong>: Restoring user data using Recovery Codes</li>
+      <li><strong>Customer Support</strong>: Responding to inquiries</li>
+    </ul>
+
+    <hr />
+
+    <h2>4. Information Sharing with Third Parties</h2>
+    <p>The App uses the following third-party services to provide its services. Each service has its own privacy policy.</p>
+    <table>
+      <tr>
+        <th>Service</th>
+        <th>Company</th>
+        <th>Purpose</th>
+        <th>Privacy Policy</th>
+      </tr>
+      <tr>
+        <td>Firebase Authentication</td>
+        <td>Google LLC</td>
+        <td>Anonymous authentication</td>
+        <td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td>
+      </tr>
+      <tr>
+        <td>Firebase Analytics</td>
+        <td>Google LLC</td>
+        <td>Usage analysis</td>
+        <td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td>
+      </tr>
+      <tr>
+        <td>Firebase Crashlytics</td>
+        <td>Google LLC</td>
+        <td>Crash reporting</td>
+        <td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td>
+      </tr>
+      <tr>
+        <td>Cloud Firestore</td>
+        <td>Google LLC</td>
+        <td>Data sync</td>
+        <td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td>
+      </tr>
+      <tr>
+        <td>RevenueCat</td>
+        <td>RevenueCat, Inc.</td>
+        <td>Subscription management</td>
+        <td><a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a></td>
+      </tr>
+      <tr>
+        <td>Google AdMob</td>
+        <td>Google LLC</td>
+        <td>Ad delivery</td>
+        <td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td>
+      </tr>
+      <tr>
+        <td>Cloudflare</td>
+        <td>Cloudflare, Inc.</td>
+        <td>CDN/content delivery</td>
+        <td><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a></td>
+      </tr>
+    </table>
+    <p>We do not sell, rent, or share user information with third parties other than these services, except when required by law.</p>
+
+    <hr />
+
+    <h2>5. Data Storage and Protection</h2>
+
+    <h3>5.1 Storage Locations</h3>
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Storage Location</th>
+        <th>Security</th>
+      </tr>
+      <tr>
+        <td>User ID, Recovery Code</td>
+        <td>iOS Keychain</td>
+        <td>Protected by Apple encryption</td>
+      </tr>
+      <tr>
+        <td>Daruma progress, settings</td>
+        <td>SharedDefaults</td>
+        <td>Access restricted by App Groups</td>
+      </tr>
+      <tr>
+        <td>Cloud data</td>
+        <td>Firebase Firestore</td>
+        <td>Firebase security rules</td>
+      </tr>
+    </table>
+
+    <h3>5.2 Communication Protection</h3>
+    <p>All data communications are encrypted using HTTPS (TLS).</p>
+
+    <h3>5.3 Data Retention Period</h3>
+    <ul>
+      <li><strong>Local data</strong>: Stored on the device until the App is deleted</li>
+      <li><strong>Cloud data</strong>: Stored in Firestore until the account is deleted</li>
+      <li><strong>Cache</strong>: Automatically deleted after 7 days</li>
+      <li><strong>Analytics data</strong>: Subject to Google's data retention policy</li>
+    </ul>
+
+    <hr />
+
+    <h2>6. User Rights</h2>
+
+    <h3>6.1 Access to Data</h3>
+    <p>You can view your stored data (progress, Recovery Code, etc.) from the settings screen.</p>
+
+    <h3>6.2 Data Deletion</h3>
+    <ul>
+      <li><strong>Local data deletion</strong>: Deleting the App from your device will delete all locally stored data</li>
+      <li><strong>Cloud data deletion</strong>: If you wish to delete data stored in the cloud, please contact us at the address below</li>
+    </ul>
+
+    <h3>6.3 Withdrawal of Consent</h3>
+    <ul>
+      <li><strong>HealthKit access</strong>: You can revoke access permissions from iOS "Settings" > "Privacy & Security" > "Health"</li>
+      <li><strong>Ad tracking</strong>: You can change settings from iOS "Settings" > "Privacy & Security" > "Tracking"</li>
+    </ul>
+
+    <h3>6.4 Inquiries</h3>
+    <p>To exercise the above rights or if you have questions about data handling, please contact us at the address below.</p>
+
+    <hr />
+
+    <h2>7. App Tracking Transparency (ATT)</h2>
+    <p>On devices running iOS 14.5 or later, we request permission through App Tracking Transparency (ATT) before tracking for advertising purposes.</p>
+
+    <h3>7.1 If You Allow Tracking</h3>
+    <ul>
+      <li>Personalized ads may be displayed by Google AdMob</li>
+      <li>Data may be used for ad effectiveness measurement</li>
+    </ul>
+
+    <h3>7.2 If You Do Not Allow Tracking</h3>
+    <ul>
+      <li>You can continue to use the App</li>
+      <li>Ads will still be displayed but will not be personalized</li>
+      <li>Ad relevance may be reduced</li>
+    </ul>
+    <p>If you use the Premium Plan, ads are not displayed, so ad tracking is not performed regardless of ATT settings.</p>
+
+    <hr />
+
+    <h2>8. Changes to This Policy</h2>
+    <ul>
+      <li>We may change this Policy due to changes in laws, changes to our services, or other reasons.</li>
+      <li>If there are significant changes, we will notify you through in-app notifications or on our website.</li>
+      <li>If you continue to use the App after changes are made, you will be deemed to have agreed to the updated Policy.</li>
+    </ul>
+
+    <hr />
+
+    <h2>9. Contact</h2>
+    <p>For inquiries regarding this Policy or requests for data deletion or disclosure, please contact us at:</p>
+    <p><strong>Operator</strong>: Darumile Team</p>
+    <p><strong>Email</strong>: <a href="mailto:darumanomori@gmail.com">darumanomori@gmail.com</a></p>
+
+    <hr />
+    <p style="text-align: center; color: #888; font-size: 0.9rem">
+      &copy; 2025 Darumile
+    </p>
+  </body>
+</html>
